@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    background-color: gray;
+    font-size: 100%;
+}
+
+#theHeader {
+    background-color: pink;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    height: 148px;
+}
+
+#theHeader h1 {
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#theHeader nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+#theHeader nav a:hover {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#mainSection {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#mainSection h2 {
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    color: brown;
+}
+
+#mainSection p {
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+
+
+div.square {
+    border-bottom: dotted;
+    margin: 0px 10px 0px 10px;
+}
+
+div.square h1 {
+    display: inline-block;
+    padding: 50px;
+    background-color: burlywood;
+}
+
+#footer {
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#footer p {
+    margin: 0px 10px 0px 0px;
+}

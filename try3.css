@@ -1,0 +1,91 @@
+body,
+html {
+    margin: 0px;
+    height: 100%;
+    font-size: 110%;
+    background-color: seagreen;
+}
+
+#theHeader {
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#theHeader h1 {
+    color: purple;
+    margin-bottom: 0px;
+}
+
+#theNavBar {
+    margin-top: 5px;
+    background-color: burlywood;
+    border: 2px solid black;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#theNavBar a {
+    padding: 10px;
+    text-decoration: none;
+    color: brown;
+}
+
+#theNavBar a:hover {
+    background-color: gray;
+    color: yellowgreen;
+    border: 2px solid black;
+}
+
+main {
+    text-align: center;
+}
+
+.item-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+    background-color: silver;
+
+}
+
+.item-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom: 0px;
+    border: 2px solid black;
+}
+
+.item-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.item-description {
+    text-align: justify;
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#theFooter {
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
